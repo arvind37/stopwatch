@@ -11,7 +11,7 @@ function Stopwatch() {
     if (isRunning) {
       intervalId = setInterval(() => {
         setTime(prevTime => prevTime + 1);
-      }, 1000);
+      }, 2000);
     } else {
       clearInterval(intervalId);
     }
