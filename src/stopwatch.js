@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import './Stopwatch.css';
+import './stopwatch.css';
 
 function Stopwatch() {
   const [time, setTime] = useState(0);
